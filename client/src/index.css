@@ -1,0 +1,6 @@
+[data-theme = "cupcake"]{
+    --lable-color: black;
+}
+[data-theme = "night"]{
+    --label-color: white;
+}
