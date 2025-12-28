@@ -79,14 +79,14 @@ function PostContent() {
               {post.content}
             </div>
           </div>
-
           
           <div className="lg:w-64 xl:w-72">
             <div className="lg:sticky lg:top-6 space-y-6">
               
               <div 
               onClick={()=>navigate(`/home/profile/${post.owner?.username}`)}
-              className="bg-base-200 cursor-pointer rounded-lg p-4 flex items-center gap-3">
+              data-tip="User"
+              className="tooltip tooltip-bottom bg-base-200 cursor-pointer rounded-lg p-4 flex items-center gap-3">
                 <div className="avatar">
                   <div className="w-12 h-12 rounded-full overflow-hidden">
                     <img 
