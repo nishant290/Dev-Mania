@@ -76,12 +76,12 @@ function Home() {
                   </div>
                 </div>
                 <div className="user-info">
-                <div className="username font-medium text-sm">
-                  {post.owner?.username}
-                </div>
-                <div className="fullname font-light text-sm">
-                  {post.owner?.fullName}
-                </div>
+                  <div className="username font-medium text-sm">
+                    {post.owner?.username}
+                  </div>
+                  <div className="fullname font-light text-sm">
+                    {post.owner?.fullName}
+                  </div>
                 </div>
 
               </div>
